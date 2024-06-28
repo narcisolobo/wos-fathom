@@ -6,12 +6,13 @@ function RecordingsTable() {
     <table className="table table-striped table-hover">
       <thead>
         <tr>
-          <th colspan="3" class="bg-primary-subtle">
+          <th colspan="4" class="bg-primary-subtle">
             WEEK 1
           </th>
         </tr>
         <tr>
           <th>DAY</th>
+          <th>DATE</th>
           <th>TIME</th>
           <th>DESCRIPTION</th>
         </tr>

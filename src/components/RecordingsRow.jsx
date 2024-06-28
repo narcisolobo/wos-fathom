@@ -10,6 +10,7 @@ function RecordingsRow({ recording }) {
   return (
     <tr style={clickable} onClick={viewLink}>
       <td>{recording.day}</td>
+      <td>{recording.date}</td>
       <td>{recording.time}</td>
       <td>{recording.description}</td>
     </tr>

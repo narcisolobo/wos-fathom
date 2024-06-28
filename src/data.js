@@ -1,12 +1,14 @@
 export const recordings = [
   {
     day: 2,
+    date: '6/25/2024',
     time: '9:00am',
     description: 'Introductions, variables and data types',
     link: 'https://fathom.video/share/D_gM7MUB6yTgoCKWa1nfsxTSP2aZvCZS',
   },
   {
     day: 2,
+    date: '6/25/2024',
     time: '3:00pm',
     description: 'Exam discussion, Discord, conditionals, loops',
     link: 'https://fathom.video/share/dExx8qrF5bBNdbHP_-716Jc2YDsgmux7',
@@ -14,13 +16,36 @@ export const recordings = [
   {
     day: 3,
     time: '9:00am',
+    date: '6/26/2024',
     description: 'Arrays, objects',
     link: 'https://fathom.video/share/bxEAtknB48Qe2JozxhovUKcrtH6JAV2-',
   },
   {
     day: 3,
     time: '3:00pm',
+    date: '6/26/2024',
     description: 'Working with nested data structures',
     link: 'https://fathom.video/share/ixcQW23eZeHLw2D1fxPVcp7mKKDdNbSx',
+  },
+  {
+    day: 4,
+    time: '9:00am',
+    date: '6/27/2024',
+    description: 'Sigma, Factorial, Functions Part 1',
+    link: 'https://fathom.video/share/eKiYdpsxE85p2r8nvM3oMYjkxsLJUcC5',
+  },
+  {
+    day: 4,
+    time: '3:00pm',
+    date: '6/27/2024',
+    description: 'Functions Part 2 - Arrow Functions, Function Exercises',
+    link: 'https://fathom.video/share/oBYmX62NYXjALk23-k1SqiRGQnHpVH5A',
+  },
+  {
+    day: 5,
+    time: '9:00am',
+    date: '6/28/2024',
+    description: 'Sum to One Digit, review/recap, playlist activity',
+    link: 'https://fathom.video/share/o_oFM_sJ-wZy68yyKccVpwX9scv-zoyB',
   },
 ];
