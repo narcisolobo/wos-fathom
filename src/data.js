@@ -1,5 +1,6 @@
 export const recordings = [
   {
+    week: 1,
     day: 2,
     date: '6/25/2024',
     time: '9:00am',
@@ -7,6 +8,7 @@ export const recordings = [
     link: 'https://fathom.video/share/D_gM7MUB6yTgoCKWa1nfsxTSP2aZvCZS',
   },
   {
+    week: 1,
     day: 2,
     date: '6/25/2024',
     time: '3:00pm',
@@ -14,6 +16,7 @@ export const recordings = [
     link: 'https://fathom.video/share/dExx8qrF5bBNdbHP_-716Jc2YDsgmux7',
   },
   {
+    week: 1,
     day: 3,
     time: '9:00am',
     date: '6/26/2024',
@@ -21,6 +24,7 @@ export const recordings = [
     link: 'https://fathom.video/share/bxEAtknB48Qe2JozxhovUKcrtH6JAV2-',
   },
   {
+    week: 1,
     day: 3,
     time: '3:00pm',
     date: '6/26/2024',
@@ -28,6 +32,7 @@ export const recordings = [
     link: 'https://fathom.video/share/ixcQW23eZeHLw2D1fxPVcp7mKKDdNbSx',
   },
   {
+    week: 1,
     day: 4,
     time: '9:00am',
     date: '6/27/2024',
@@ -35,6 +40,7 @@ export const recordings = [
     link: 'https://fathom.video/share/eKiYdpsxE85p2r8nvM3oMYjkxsLJUcC5',
   },
   {
+    week: 1,
     day: 4,
     time: '3:00pm',
     date: '6/27/2024',
@@ -42,10 +48,27 @@ export const recordings = [
     link: 'https://fathom.video/share/oBYmX62NYXjALk23-k1SqiRGQnHpVH5A',
   },
   {
+    week: 1,
     day: 5,
     time: '9:00am',
     date: '6/28/2024',
     description: 'Sum to One Digit, review/recap, playlist activity',
     link: 'https://fathom.video/share/o_oFM_sJ-wZy68yyKccVpwX9scv-zoyB',
+  },
+  {
+    week: 1,
+    day: 5,
+    time: '3:00pm',
+    date: '6/28/2024',
+    description: 'JavaScript Pub Trivia Setup',
+    link: 'https://fathom.video/share/HgzQ4jjt5GX2VD23qe5zL1CbQEhpDQ-M',
+  },
+  {
+    week: 2,
+    day: 1,
+    time: '9:00am',
+    date: '7/1/2024',
+    description: 'Guess the Number, map and filter',
+    link: 'https://fathom.video/share/ohPwkU3t_r4oxy9tmZN9-_-NqDM--XmX',
   },
 ];

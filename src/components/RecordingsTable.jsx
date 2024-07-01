@@ -18,9 +18,27 @@ function RecordingsTable() {
         </tr>
       </thead>
       <tbody>
-        {recordings.map((recording) => (
-          <RecordingsRow key={recording.link} recording={recording} />
-        ))}
+        {recordings
+          .filter((r) => r.week === 1)
+          .map((recording) => (
+            <RecordingsRow key={recording.link} recording={recording} />
+          ))}
+        <tr>
+          <th colspan="4" class="bg-primary-subtle">
+            WEEK 2
+          </th>
+        </tr>
+        <tr>
+          <th>DAY</th>
+          <th>DATE</th>
+          <th>TIME</th>
+          <th>DESCRIPTION</th>
+        </tr>
+        {recordings
+          .filter((r) => r.week === 2)
+          .map((recording) => (
+            <RecordingsRow key={recording.link} recording={recording} />
+          ))}
       </tbody>
     </table>
   );
