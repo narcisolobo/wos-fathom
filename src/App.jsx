@@ -1,15 +1,26 @@
-import RecordingsTable from './components/RecordingsTable';
+import { Fragment } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Week from './components/Week';
+import Home from './components/Home';
+import OffCanvasContent from './components/OffCanvasContent';
 
 function App() {
   return (
-    <main className="container my-3">
-      <h1 className="display-1 mb-3">Fathom Recordings</h1>
-      <p className="lead">
-        Fathom recording links for Programming Basics and Web Fundamentals, WOS
-        2024 cohort.
-      </p>
-      <RecordingsTable />
-    </main>
+    <Fragment>
+      <Header />
+      <div className="d-flex">
+        <aside className="p-3 d-none d-lg-block">
+          <OffCanvasContent />
+        </aside>
+        <main className="p-3">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/weeks/:week" element={<Week />} />
+          </Routes>
+        </main>
+      </div>
+    </Fragment>
   );
 }
 

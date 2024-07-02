@@ -1,0 +1,15 @@
+aside {
+  flex: 1;
+}
+
+main {
+  flex: 4;
+}
+
+.recordings-grid {
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+}
+
+.clickable {
+  cursor: pointer;
+}
