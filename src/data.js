@@ -94,7 +94,7 @@ export const recordings = [
     day: 1,
     time: '3:00pm',
     date: '7/1/2024',
-    description: 'MySQL Setup',
+    description: 'Evens and Odds, MySQL Setup',
     image:
       'https://storage.googleapis.com/fathom_video/7k6hypdn3m6v12ixfio3judnxrkn?response-content-disposition=inline%3B%20filename%3D%220f351132-73c8-4b13-9d89-a9f1a33c8216.jpg%22%3B%20filename%2A%3DUTF-8%27%270f351132-73c8-4b13-9d89-a9f1a33c8216.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GOOG1EL6XRA4K3BQTRU5FQAAGGNT7Y2HTBOACVAL3CWUN7HJJK6F57ZAOV2WY%2F20240702%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240702T055838Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=62ffd0d39cc803494ee76376a83734884292889616d86e5e4a2398e0267323bc',
     link: 'https://fathom.video/share/tf6NjiYpHT7e8yNuB-HqG4zHH9uSsM8n',
