@@ -6,7 +6,7 @@ function RecordingCard({ recording }) {
   return (
     <div className="card shadow clickable" onClick={handleClick}>
       <img
-        src={recording.image}
+        src={new URL(recording.image, import.meta.url).href}
         alt={recording.description}
         className="card-img-top"
       />
