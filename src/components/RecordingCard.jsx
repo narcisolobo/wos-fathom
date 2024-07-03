@@ -19,7 +19,9 @@ function RecordingCard({ recording }) {
           {recording.day}
         </p>
         <p className="card-text">
-          <strong>Time: </strong>
+          <strong>Date: </strong>
+          {recording.date}
+          <strong>, Time: </strong>
           {recording.time}
         </p>
       </div>
