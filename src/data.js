@@ -107,4 +107,22 @@ export const recordings = [
     image: '/images/2024-0702-2.jpg',
     link: 'https://fathom.video/share/xC9Hm5wbw9sMVTfxigvNtKxvoyMvjn5U',
   },
+  {
+    week: 2,
+    day: 3,
+    time: '9:00am',
+    date: '7/3/2024',
+    description: 'More ERDs',
+    image: '/images/2024-0702-1.jpg',
+    link: 'https://fathom.video/share/4Md3HRSGAyYP7EvkWnHysTtP4XsKuN9s',
+  },
+  {
+    week: 2,
+    day: 3,
+    time: '3:00pm',
+    date: '7/3/2024',
+    description: 'MySQL Queries',
+    image: '/images/2024-0702-2.jpg',
+    link: 'https://fathom.video/share/eGEzV_beoD-fje12-mrsVjyp5SsAU7hW',
+  },
 ];
