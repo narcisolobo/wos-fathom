@@ -3,9 +3,9 @@ import OffCanvasContent from './OffCanvasContent';
 function OffCanvasContainer() {
   return (
     <div
-      className="offcanvas offcanvas-start"
       tabIndex={-1}
       id="offcanvas"
+      className="offcanvas offcanvas-start"
       aria-labelledby="offcanvas-label">
       <div className="offcanvas-header p-3">
         <h5 className="offcanvas-title" id="offcanvas-label">
