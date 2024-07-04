@@ -12,11 +12,11 @@ function App() {
       <Header />
       <OffCanvasContainer />
       <div className="d-flex">
-        <aside className="p-3 d-none d-lg-block">
+        <aside className="p-2 p-lg-3 d-none d-lg-block">
           <h5>Stacks</h5>
           <OffCanvasContent />
         </aside>
-        <main className="p-3">
+        <main className="p-2 p-lg-3">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/weeks/:week" element={<Week />} />
