@@ -113,7 +113,7 @@ export const recordings = [
     time: '9:00am',
     date: '7/3/2024',
     description: 'More ERDs',
-    image: '/images/2024-0702-1.jpg',
+    image: '/images/2024-0703-1.jpg',
     link: 'https://fathom.video/share/4Md3HRSGAyYP7EvkWnHysTtP4XsKuN9s',
   },
   {
@@ -122,7 +122,7 @@ export const recordings = [
     time: '3:00pm',
     date: '7/3/2024',
     description: 'MySQL Queries',
-    image: '/images/2024-0702-2.jpg',
+    image: '/images/2024-0703-2.jpg',
     link: 'https://fathom.video/share/eGEzV_beoD-fje12-mrsVjyp5SsAU7hW',
   },
 ];
