@@ -3,7 +3,7 @@ import HamburgerMenu from './HamburgerMenu';
 
 function Header() {
   return (
-    <nav className="navbar bg-body-tertiary">
+    <nav className="navbar bg-primary">
       <div className="container-fluid">
         <div className="d-flex align-items-center gap-3">
           <HamburgerMenu />
