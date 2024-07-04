@@ -1,13 +1,8 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import Dropdown from './Dropdown';
-import { recordings } from '../data';
 
 function OffCanvasContent() {
   const { pathname } = useLocation();
-
-  const pbWebFun = recordings.filter(
-    (recording) => recording.week === 1 || recording.week === 2
-  );
 
   return (
     <ul className="nav flex-column">

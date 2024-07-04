@@ -12,7 +12,6 @@ function Week() {
   const filteredRecordings = recordings.filter(
     (recording) => recording.week === Number(week)
   );
-  console.log(filteredRecordings);
 
   return (
     <Fragment>
