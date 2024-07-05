@@ -125,4 +125,13 @@ export const recordings = [
     image: '/images/2024-0703-2.jpg',
     link: 'https://fathom.video/share/eGEzV_beoD-fje12-mrsVjyp5SsAU7hW',
   },
+  {
+    week: 2,
+    day: 5,
+    time: '9:00am',
+    date: '7/5/2024',
+    description: 'JOINs, aggregate functions, GROUP BY',
+    image: '/images/2024-0705-1.jpg',
+    link: 'https://fathom.video/share/HxwnGBpz-uGzVFjiuwGiMtbxDLMgv8AZ',
+  },
 ];
