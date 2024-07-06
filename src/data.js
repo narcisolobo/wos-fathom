@@ -134,4 +134,13 @@ export const recordings = [
     image: '/images/2024-0705-1.jpg',
     link: 'https://fathom.video/share/HxwnGBpz-uGzVFjiuwGiMtbxDLMgv8AZ',
   },
+  {
+    week: 2,
+    day: 5,
+    time: '3:00pm',
+    date: '7/5/2024',
+    description: 'SQL Exercise - Vinyl Countdown',
+    image: '/images/2024-0705-2.jpg',
+    link: 'https://fathom.video/share/USMRB_5x_KX7PiLQssWNwYgxhJJ9zQsE',
+  },
 ];
