@@ -16,7 +16,8 @@ function OffCanvasContent() {
         </NavLink>
       </li>
       <li className="nav-item">
-        <Dropdown title="PB / Web Fun" />
+        <Dropdown title="Programming Basics" weeks={[1, 2]} />
+        <Dropdown title="Web Fundamentals" weeks={[3]} />
       </li>
     </ul>
   );

@@ -1,6 +1,6 @@
-import { NavLink } from 'react-router-dom';
+import DropdownMenu from './DropdownMenu';
 
-function Dropdown({ title }) {
+function Dropdown({ title, weeks }) {
   return (
     <div className="button-group dropend">
       <button
@@ -10,18 +10,7 @@ function Dropdown({ title }) {
         aria-expanded="false">
         {title}
       </button>
-      <ul className="dropdown-menu">
-        <li>
-          <NavLink className="dropdown-item" to="/weeks/1" end>
-            Week 1
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="dropdown-item" to="/weeks/2" end>
-            Week 2
-          </NavLink>
-        </li>
-      </ul>
+      <DropdownMenu weeks={weeks} />
     </div>
   );
 }
