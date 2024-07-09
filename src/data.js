@@ -170,4 +170,13 @@ export const recordings = [
     image: '/images/2024-0708-3.jpg',
     link: 'https://fathom.video/share/s4FqkieKzPZK1xK4o4Ksc-xBG-9QJUoM',
   },
+  {
+    week: 3,
+    day: 2,
+    time: '9:00am',
+    date: '7/9/2024',
+    description: 'Acronymize, Intro to CSS',
+    image: '/images/2024-0709-1.jpg',
+    link: 'https://fathom.video/share/ThUWx_PmJPwBHgCekhJnBWBnRTB8raTC',
+  },
 ];
